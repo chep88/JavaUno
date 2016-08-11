@@ -76,7 +76,6 @@ public class Buss {
         for (int i=0; i<this.cantidadPasajero.length;i++){
             if (this.cantidadPasajero[i]>20){
                 suma+=cantidadPasajero[i];
-                
             }
         }
         return suma*precioPasajero;
